@@ -1,9 +1,13 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      App Placeholder
+      <Routes>
+        <Route path="/" element="" />
+        <Route path="search" element="" />
+      </Routes>
     </div>
   );
 }
